@@ -13,6 +13,7 @@ class Vampire
     thirsty
   end
 
+
   def drink
     @blood_count += 1
     @thirsty = false if blood_count = 1
